@@ -1,4 +1,4 @@
-FROM harbor-dev.fsg.inner:8443/library/jboss-base:latest
+FROM harbor-dev.fsg.inner:8443/library/jboss4-base:latest
 ENV JAVA_HOME /usr/share/jdk1.6.0_45
 ENV PATH $JAVA_HOME/bin:$PATH
 ENV CLASSPATH .:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
